@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kapiec_visuals",
+  "version": "${version}",
+  "name": "Kapiec VISUALS",
+  "description": "Stretched screen, viewmodel, hearts over enemies and crit sounds.",
+  "authors": ["Kapiec"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.kapiec.visuals.KapiecVisualsClient"]
+  },
+  "mixins": ["kapiec_visuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

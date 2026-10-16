@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "pl.kapiec.visuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "HeldItemRendererMixin",
+    "PlayerEntityMixin",
+    "SoundManagerMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
